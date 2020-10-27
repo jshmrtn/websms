@@ -1,7 +1,9 @@
 defmodule Websms.MixProject do
+  @moduledoc false
+
   use Mix.Project
 
-  @version "0.0.0-dev"
+  @version "1.0.0-alpha.1"
 
   def project do
     [
