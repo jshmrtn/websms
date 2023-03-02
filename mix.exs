@@ -45,7 +45,7 @@ defmodule Websms.MixProject do
     [
       {:openapi_compiler, "~> 1.0-beta"},
       {:mint, "~> 1.0"},
-      {:castore, "~> 0.1"},
+      {:castore, "~> 1.0"},
       {:ex_doc, "~> 0.19", only: :dev, runtime: false},
       {:excoveralls, "~> 0.5", only: [:test], runtime: false},
       {:dialyxir, "~> 1.0", only: [:dev], runtime: false},
